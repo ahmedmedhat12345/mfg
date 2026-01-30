@@ -1,0 +1,39 @@
+{
+  "target_column": "price",
+  "feature_columns": [
+    "sqft_living",
+    "sqft_above",
+    "price_per_sqft",
+    "bathrooms",
+    "total_rooms",
+    "bedrooms",
+    "view",
+    "view_log",
+    "sqft_basement",
+    "floors",
+    "sqft_lot_log",
+    "city_encoded",
+    "waterfront_log",
+    "waterfront",
+    "sqft_lot",
+    "yr_renovated",
+    "street_encoded",
+    "condition",
+    "yr_built"
+  ],
+  "clustering_features": [
+    "sqft_living",
+    "bedrooms",
+    "bathrooms",
+    "price",
+    "sqft_lot",
+    "floors",
+    "waterfront"
+  ],
+  "optimal_k": 4,
+  "model_metrics": {
+    "classification_accuracy": 0.8650168728908887,
+    "regression_rmse": 20360.2621602022,
+    "regression_r2": 0.994170229242907
+  }
+}
